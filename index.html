@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carcharing</title>
-  <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed&display=swap"
-    rel="stylesheet" />
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carcharing</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
 
-<body>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="./index.html">
+          <svg class="logo-icon">
+            <use href="image/svg/logo.svg#icon-lux-logo"></use>
+          </svg>
+        </a>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">О НАС</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">АВТОПАРК</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">ОТЗЫВЫ</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">УСЛОВИЯ</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="tel:+380999999090">+38 (099) 999 90 90</a>
+      </div>
+    </header>
+    <main>
+      <!-- Hero -->
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__texts">
+              <h1 class="hero__title">Каршеринг в Киеве LUX автомобили</h1>
+              <p class="hero__text">
+                Закажи эксклюзивный автомобиль через мобильное приложение в
+                любой точке города
   <header class="header">
     <div class="container">
       <a class="logo" href="./index.html">
@@ -82,9 +125,112 @@
               <p class="peculiarity__text">
                 Лучшие автомобили в любой точке города
               </p>
-            </li>
-          </ul>
+              <a class="hero__app-btn btn" href="#"> Скачать приложение </a>
+              <ul class="peculiarity">
+                <li>
+                  <svg class="peculiarity__icon">
+                    <use href="./img/sprites/hero-icons.svg#"></use>
+                  </svg>
+                  <p class="peculiarity__text">
+                    Более 300 автомобилей в вашем распоряжении
+                  </p>
+                </li>
+                <li>
+                  <svg class="peculiarity__icon">
+                    <use href="./img/sprites/hero-icons.svg#"></use>
+                  </svg>
+                  <p class="peculiarity__text">
+                    Дешевле такси и собственного автомобиля
+                  </p>
+                </li>
+                <li>
+                  <svg class="peculiarity__icon">
+                    <use href="./img/sprites/hero-icons.svg#"></use>
+                  </svg>
+                  <p class="peculiarity__text">
+                    Лучшие автомобили в любой точке города
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="hero__content">
+              <img
+                class="hero__content-img"
+                src="./img/car.jpg"
+                alt="автомобиль"
+              />
+              <span class="hero__indicator">
+                4 грн/мин 5 мест 50 тыс. км пробег
+              </span>
+            </div>
+            <ul class="hero__list">
+              <li class="hero__item">
+                <a class="hero__link" href="#"> Условия аренды автомобиля </a>
+              </li>
+              <li class="hero__item">
+                <a class="hero__link" href="#"> Публичный договор </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </section>
+
+      <!-- Rent terms -->
+
+      <section class="rent-terms-section">
+        <div class="container">
+          <div class="rent-terms-first-box">
+            <h2 class="rent-terms-title">Условия аренды автомобиля</h2>
+            <p class="rent-terms-text">
+              Мы ценим каждого клиента и предоставляем качественный сервис
+              каршеринга в Киеве.
+            </p>
+            <p class="rent-terms-text">
+              Именно для того, что бы Вам было приятно и безопасно пользоваться
+              нашим сервисом на постоянной основе, мы выделили несколько условий
+              для того, чтобы взять машину в аренду
+            </p>
+            <a class="btn rent-terms-btn" href="#">Скачать приложение</a>
+          </div>
+          <div class="rent-terms-second-box">
+            <ul class="rent-terms-list">
+              <li class="rent-terms-list-item">
+                <p class="rents-item-list-item-number">01</p>
+                <p class="rents-item-list-item-title">
+                  Опыт вождения от 2х лет
+                </p>
+                <p class="rents-item-list-item-text">
+                  Для того, чтобы арендовать автомобиль, Вам необходимо
+                  зарегестрировать свои прав в нашем мобильном приложении
+                </p>
+              </li>
+              <li class="rent-terms-list-item">
+                <p class="rents-item-list-item-number">02</p>
+                <p class="rents-item-list-item-title">Только по Киеву</p>
+                <p class="rents-item-list-item-text">
+                  Наши автомобили работают только в пределах города Киев. За
+                  город на наших автомобилях, к сожалению, выезжать нельзя.
+                </p>
+              </li>
+              <li class="rent-terms-list-item">
+                <p class="rents-item-list-item-number">03</p>
+                <p class="rents-item-list-item-title">
+                  Мобильный телефон и интернет
+                </p>
+                <p class="rents-item-list-item-text">
+                  Для использования нашего сервиса Вам необходим мобильный
+                  телефон и интернет. Бронирование, оплата и вся отчетность
+                  происходит онлайн
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+=======
         <div class="hero__content">
           <img class="hero__content-img" src="./img/car.jpg" alt="автомобиль">
           <span class="hero__indicator">
@@ -110,3 +256,4 @@
 
 
 </html>
+
