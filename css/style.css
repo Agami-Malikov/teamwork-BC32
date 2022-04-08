@@ -1,3 +1,5 @@
+/* __GLOBAL__*/
+
 :root {
   --accent-color: #c5ac2d;
   --dark-color: #1b1818;
@@ -13,8 +15,6 @@ body {
   font-size: 16px;
   line-height: 1.2;
 }
-
-/* GLOBAL */
 
 .container {
   max-width: 1220px;
@@ -63,3 +63,9 @@ body {
 .nav-list-item:hover::after {
   width: 100%;
 }
+
+svg{
+  width: 0;
+  height: 0;
+}
+
