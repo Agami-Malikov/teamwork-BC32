@@ -1,3 +1,5 @@
+/* __GLOBAL*/
+
 :root {
   accent-color: #C5AC2D;
   dark-color: #1B1818;
@@ -13,3 +15,9 @@ body {
   font-size: 16px;
   line-height: 1.2;
 }
+
+svg{
+  width: 0;
+  height: 0;
+}
+
