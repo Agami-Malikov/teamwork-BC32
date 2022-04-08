@@ -286,6 +286,69 @@ body {
   border-bottom: 1px solid var(--dark-color);
 }
 
+/* __BENEFITS__*/
+
+.benefits__title {
+  font-family: '';
+  font-weight: 500;
+  font-size: 24px;
+  font-family: 'Fira Sans', 'sans-serif';
+  margin-bottom: 21px;
+}
+
+.benefits__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.benefits__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+
+.benefits__item {
+  position: relative;
+  padding-right: 26px;
+}
+
+.benefits__item:not(:last-child) {
+  margin-bottom: 27px;
+}
+
+.benefits__item::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  background: var(--brand-color);
+  border-radius: 50%;
+}
+
+.benefits__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+.benefits__link {
+  position: relative;
+  text-align: center;
+  align-self: center;
+  padding: 6px 34px 6px 64px;
+  max-width: 200px;
+}
+
+.benefits__icon {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -319,7 +382,7 @@ body {
 }
 
 .reviews-name {
-  font-family: "Fira Sans";
+  font-family: 'Fira Sans', 'sans-serif';
   font-size: 24px;
   line-height: 1.2;
   text-align: center;
@@ -336,7 +399,8 @@ body {
 
 /* Contact Us */
 
-.contact-us {
+.contact-us,
+.benefits {
   padding: 100px 0;
   background-color: var(--main-white);
 }
@@ -353,14 +417,14 @@ body {
 
 .contact-us-title {
   margin-bottom: 5px;
-  font-family: "Fira Sans";
+  font-family: 'Fira Sans', 'sans-serif';
   font-size: 24px;
   color: var(--dark-color);
 }
 
 .contact-us-text {
   margin-bottom: 50px;
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed" "sans-serif";
   font-size: 16px;
   color: var(--dark-color);
 }
