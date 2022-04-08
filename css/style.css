@@ -1,19 +1,67 @@
-/* __GLOBAL*/
+/* __GLOBAL__*/
 
 :root {
-  accent-color: #C5AC2D;
-  dark-color: #1B1818;
-  main-white: #FEFEFE;
-  brand-color: #332208;
+  --accent-color: #c5ac2d;
+  --dark-color: #1b1818;
+  --main-white: #fefefe;
+  --brand-color: #332208;
 }
 
 /* font-family: 'Fira Sans','sans-serif'; */
 
 body {
-  font-family: 'Roboto Condensed','sans-serif';
+  font-family: "Roboto Condensed", "sans-serif";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  background-color: var(--brand-color);
+  padding: 20px 0;
+  color: var(--main-white);
+}
+
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item {
+  position: relative;
+  margin: 0 15px;
+}
+
+.nav-list-item::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--main-white);
+  transition: 0.4s;
+}
+
+.nav-list-item:hover::after {
+  width: 100%;
 }
 
 svg{
