@@ -1,3 +1,4 @@
+
 /* __GLOBAL__*/
 
 :root {
@@ -28,6 +29,7 @@ body {
   color: var(--main-white);
   text-transform: uppercase;
 }
+
 
 /* HEADER */
 
@@ -209,7 +211,45 @@ body {
   align-items: center;
 }
 
-.peculiarity__item {
+
+ .hero__inner {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .hero__texts {
+   max-width: 600px;
+   text-align: center;
+ }
+
+ .hero__title {
+  font-family: 'Fira Sans', 'sans-serif';
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+ }
+
+ .hero__text {
+   font-size: 24px;
+   margin-bottom: 63px;
+ }
+
+ .hero__app-btn {
+   padding: 16px 18px;
+   margin-bottom: 104px;
+ }
+
+ .peculiarity__text {
+   max-width: 130px;
+ }
+
+ .peculiarity {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .peculiarity__item {
   border: 1px solid var(--brand-color);
   width: 150px;
   height: 150px;
@@ -347,3 +387,33 @@ body {
   font: inherit;
   padding: 16px 36px;
 }
+
+ .peculiarity__item + .peculiarity__item {
+   margin-left: 50px;
+ }
+
+ .hero__indicator {
+   display: block;
+   text-align: center;
+  font-family: 'Fira Sans', 'sans-serif';
+  font-weight: 500;
+  margin-bottom: 155px;
+ }
+
+ .hero__list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ .hero__item + .hero__item {
+   margin-left: 20px;
+  }
+  
+  .hero__link {
+    display: block;
+    border-bottom: 1px solid var(--dark-color);
+ }
+
+
