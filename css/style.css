@@ -21,6 +21,7 @@ body {
 .container {
   max-width: 1220px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .btn {
@@ -306,6 +307,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 300px;
+  text-align: right;
 }
 
 .benefits__item {
@@ -326,6 +328,26 @@ body {
   height: 16px;
   background: var(--brand-color);
   border-radius: 50%;
+  color: #000000;
+}
+
+.benefits__item:nth-child(1),
+.benefits__item:nth-child(7) {
+  margin-right: 10px;
+}
+
+.benefits__item:nth-child(2),
+.benefits__item:nth-child(6) {
+  margin-right: 60px;
+}
+
+.benefits__item:nth-child(3),
+.benefits__item:nth-child(5) {
+  margin-right: 110px;
+}
+
+.benefits__item:nth-child(4) {
+  margin-right: auto;
 }
 
 .benefits__texts {
