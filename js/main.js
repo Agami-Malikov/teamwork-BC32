@@ -11,4 +11,18 @@ $('.hero__slider-list').slick({
 });
 
 });
+
+$(function(){
+
+$('.reviews__slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  dots: true,
+  autoplay: false,
+  autoplaySpeed: 2000,
+  infinite: false,
+});
+
+});
  

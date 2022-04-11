@@ -216,7 +216,7 @@ body {
   max-width: 600px;
 }
 
-.slick-dots {
+.hero__slider-list > .slick-dots {
   position: absolute;
   flex-direction: column;
   top: 25%;
@@ -240,7 +240,7 @@ transform: scale(2);
 
 .slick-dots li.slick-active button:before {
   opacity: 0;
-  color: black;
+  color: var(--brand-color);
 }
 
 /* Rent Terms */
@@ -432,6 +432,7 @@ transform: scale(2);
 .reviews {
   padding: 100px 0;
   background-color: var(--brand-color);
+  position: relative;
 }
 
 .reviews-title {
@@ -442,9 +443,23 @@ transform: scale(2);
   color: var(--main-white);
 }
 
-.reviews-list {
+.reviews__slider {
   display: flex;
+}
+
+.reviews__slider > .slick-dots {
+  left: 50%;
+  transform: translateX(-8%);
+}
+
+.slick-dots li button {
+  background-color: var(--accent-color);
+}
+
+.reviews-list {
+  display: flex !important;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .reviews-list-item {
