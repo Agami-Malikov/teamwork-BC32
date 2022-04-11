@@ -433,7 +433,7 @@ transform: scale(2);
   display: flex;
 }
 
-.reviews__slider>.slick-dots {
+.reviews__slider > .slick-dots {
   left: 50%;
   transform: translateX(-8%);
 }

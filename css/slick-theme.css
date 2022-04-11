@@ -119,8 +119,7 @@
     margin-bottom: 30px;
 }
 
-.slick-dots
-{
+.slick-dots {
     position: absolute;
     bottom: -25px;
 
@@ -134,8 +133,7 @@
 
     text-align: center;
 }
-.slick-dots li
-{
+.slick-dots li {
     position: relative;
 
     display: inline-block;
